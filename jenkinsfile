@@ -23,7 +23,7 @@ pipeline{
         stage('Run Application'){
             steps{
                 script{
-                bat 'java -jar app/build/libs/app.jar'
+                bat 'java -jar app/src/main/java/org/example/App.java'
                 }
             }
         }
